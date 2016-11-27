@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>day04</title>
+	<style>
+
+		#tree {
+			font-size: 11px;
+			font-style: nanumgodic
+		}
+		#way { font-size: 11px;
+			font-style: nanumgodic }
+		</style>
+
+	</head>
+
+	<body>
+		<form action="form-responses/new" method="post">
+			<input id="one" type="text" name="firstname" size="20" placeholder="성 기입"><br>
+			<input id="two" type="text" name="lasttname" size="20" placeholder="이름 기입"><br><br>
+			<div id="tree"><span>성별</span><br>
+				<input type="radio" name="weird" value="code-blue" checked>
+				<span>남자</span>
+				<input type="radio" name="weird" value="code-red" checked>
+				<span>여자</span></div>
+				<input id="four" type="password" name="password" size="20" placeholder="패스워드"><br>
+				<input id="five" type="email" name="useremail" placeholder="이메일주소 기입"><br><br>
+				<div id="way"><span>가입경로</span></div>
+				<select name="select">
+					<optgroup label="가입경로">
+						<option value="purpose">지인권유</option>
+						<option value="internet">인터넷가입</option>
+						<option value="andso">기타</option>
+					</optgroup>
+				</select><br><br>
+				<textarea name="user_message" rows="10" cols="18" placeholder="의견남겨주세요"></textarea>
+				<br><br>
+				<input id="six" type="submit"><br>
+
+			</form>	
+
+
+		</body>
+		</html>
